@@ -1,0 +1,276 @@
+/* Reset de margenes y bordes*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Ingreso de font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+/*Color de body y letra*/
+
+body{
+    background-color: #04021E;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* color y relleno del nav*/
+nav {
+  background-color: #04021e2a;
+  padding: 10px;
+  margin-left: 200px;
+  
+}
+
+/*Agrupación en linea*/
+.logo,
+.menu,
+.social-icons,
+.youtube-button {
+  display: inline-block;
+  padding: 50px;
+}
+
+/*Tamaño del logo*/
+.logo img {
+  height: 30px;
+  width: auto;
+}
+
+/*Agrupación en linea de los elemenstos del menu*/
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/*Quitar viñetas a los iconos de redes sociales, margen y altura*/
+.menu li a,
+.social-icons a {
+  text-decoration: none;
+  margin-right: 10px;
+  height: 20px;
+}
+
+/*Arreglos de las opciones del menú*/
+.menu li a,
+.social-icons a,
+.youtube-button a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+/*Arreglo sección principal*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.left-container {
+  display: block;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.right-container {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+
+  /*Releno de lineas*/
+
+.lineas div{
+    border-bottom:solid 3px #7976A8;
+    width:50%;
+    height:50px;
+  }
+/*Relleno de la primera linea*/
+ #primeraLinea {
+  border-top:solid 3px #7976A8;
+  width: 50%;
+  height: 50px;
+} 
+
+/*tarjeta nosotros*/
+.cardNosotros{
+  display:block;
+  /* flex-direction:column; */
+  /* justify-content:space-between; */
+  width:420px;
+  height:300px;
+  /* border: 1px solid lightgray; */
+  /* box-shadow: 2px 2px 8px 4px #d3d3d3d1; */
+  border-radius:15px;
+  background-color: #101B3A;
+  margin-left: 200px;
+  text-align: center;
+}
+.container2 {
+  display: flex;
+  margin-top: 200px;
+}
+
+.lineas{
+  flex-basis: 50%;
+  margin-left: 300px;
+  color: #7976A8;
+
+}
+
+.h3Lineas{
+padding-top: ;
+}
+
+.iconosVarios{
+  height: 25px;
+  padding-left: 250px;
+}
+
+.seccionVideo{
+  margin-top: 100px;
+}
+
+.container3{
+  display: flex;
+}
+
+#imagenPico{
+  width: 50%;
+  height:250px;
+  background-image: url("../images/gabriel-salas-tZwJzomTRx0-unsplash\ 1.png");
+  background-size: cover;
+}
+
+#cardColabora{
+  width: 50%;
+  height: 250px;
+  background-color: #71D6B9;
+  color: black;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+#textoColabora{
+  text-align: justify;
+  padding-top: 20px;
+}
+
+#botonColabora{
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid black;
+  padding: 2px;
+  align-items: end;
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+.container4{
+display: flex;
+justify-content: space-between;
+padding: 100px 50px 100px 50px;
+}
+
+ .redesFooter img{
+  height: 50px;
+}
+
+.copy{
+  color: #7976A8;
+  margin: 0 0 20px 30px;
+}
+
+/*Pagina Nosotros*/
+
+.cardNosotros2{
+  display: flex;
+}
+
+.cardNosotros2 h2{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  margin-top: 180px;
+}
+
+.cardNosotros2 p{
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+
+
+}
+
+.cardNosotros2 img{
+  border-radius: 50px 0 0 50px;
+  margin-top: 100px;
+}
+
+/*Pagina Equipo*/
+
+.imagenEquipo img{
+  height: 50px;
+  border-radius: 100px 100px 100px 100px;
+  border: 3px solid #C7FF5A;
+}
+span {
+  border-bottom: 2px solid #C7FF5A;
+}
+
+.contactoDescripcion{
+  margin-top: 100px;
+  display: flex;
+  justify-content:center;  
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Pagina contacto*/
+
+.hablemos h1{
+  text-align:center;
+  font-size: x-large;
+  
+}
+.hablemos #mailContacto{
+  text-align: center;
+}
+
+#textoColabora{
+  text-align: center;
+  padding: 30px 200px 30px 100px;
+
+}
+
+.inputContacto{
+  border: 2px solid #7976A8;
+  border-radius: 20px;
+  width: 250px;
+  height: 100%;
+  background-color: transparent;
+  padding-top: 10px;
+  text-align:justify;
+}
+
+#mensaje{
+  border: 2px solid #7976A8;
+  border-radius: 20px;
+  width: 250px;
+  height: 100%;
+  background-color: transparent;
+  padding-top: 10px;
+  text-align:justify;
+}
+
+#botonContacto{
+  color: #7976A8;
+  margin-top: 10px;
+}
